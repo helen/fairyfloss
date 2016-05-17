@@ -249,6 +249,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Property</string>
+			<key>scope</key>
+			<string>meta.property-name, support.type.property-name, support.type.vendor-prefix</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property value</string>
+			<key>scope</key>
+			<string>meta.property-value, support.constant.property-value, support.constant.font-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Library variable</string>
 			<key>scope</key>
 			<string>support.other.variable</string>
