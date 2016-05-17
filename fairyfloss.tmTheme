@@ -75,7 +75,7 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character, constant.other, variable.other.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -210,15 +210,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library function</string>
+			<string>Functions</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function, variable.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#C2FFDF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constructs</string>
+			<key>scope</key>
+			<string>support.function.construct</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C5A3FF</string>
 			</dict>
 		</dict>
 		<dict>
